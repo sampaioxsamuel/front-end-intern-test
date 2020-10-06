@@ -26,18 +26,17 @@
     // "alert" simplesmente mostra um aviso para o usuário contendo a
     // mensagem provida.
 
+    /* Verificação dos campos de Nome/Email/Mensagem */
+
     if (nameValue.trim() === '') {
       window.alert('O campo "Nome" não pode ficar vazio');
     } else if (emailValue.trim() === '') {
-      window.alert('O campo "Email" cu não pode ficar vazio');
+      window.alert('O campo "Email" não pode ficar vazio');
     } else if (messageValue.trim() === '') {
       window.alert('O campo "Mensagem" não pode ficar vazio');
     } else {
       window.alert('Mensagem enviada com sucesso!');
     }
-
-    // alert('O campo email não pode ficar vazio');
-
     // Altere e complete essa função para validar os campos do formulário
     // de acordo com as especificações do teste. Boa sorte!
   });
