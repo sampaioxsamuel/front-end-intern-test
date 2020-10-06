@@ -9,7 +9,7 @@ body {
   --verde: #71a397;
   --verde-sombra: #4b8a79;
   --verde-ativo: #659a8e;
-  background: url('/assets/04-BG.png');
+  background: url('./assets/04-BG.png');
   background-size: cover;
 }
 
